@@ -1,0 +1,1165 @@
+{
+        "data": [
+            {
+                "Landfill_Name": "Alamance County Landfill",
+                "City": "Graham",
+                "County": "Alamance",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Anson County Waste Management Facility",
+                "City": "Polkton",
+                "County": "Anson",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "City of Albemarle LF",
+                "City": "Albemarle",
+                "County": "Stanly",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Cleveland County LF",
+                "City": "Shelby",
+                "County": "Cleveland",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "East Carolina Regional LF",
+                "City": "Aulander",
+                "County": "Bertie",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Foothills Environmental Landfill",
+                "City": "Lenoir",
+                "County": "Caldwell",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Kersey Valley Landfill",
+                "City": "High Point",
+                "County": "Guilford",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Lenoir County LF",
+                "City": "La Grange",
+                "County": "Lenoir",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "New Hanover County Secure Landfill",
+                "City": "Wilmington",
+                "County": "New Hanover",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Rowan County LF",
+                "City": "Woodleaf",
+                "County": "Rowan",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Upper Piedmont Regional Landfill",
+                "City": "Rougemont",
+                "County": "Person",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Wilson County LF",
+                "City": "Wilson",
+                "County": "Wilson",
+                "Current_Project_Status": "Candidate",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Rockingham County LF",
+                "City": "Madison",
+                "County": "Rockingham",
+                "Current_Project_Status": "Construction",
+                "Current_Year_Emission_Reductions_Direct": "0.0361",
+                "Current_Year_Emission_Reductions_Avoided": "0.0032"
+            },
+            {
+                "Landfill_Name": "Rockingham County LF#2",
+                "City": "Madison",
+                "County": "Rockingham",
+                "Current_Project_Status": "Construction",
+                "Current_Year_Emission_Reductions_Direct": "0.0361",
+                "Current_Year_Emission_Reductions_Avoided": "0.0032"
+            },
+            {
+                "Landfill_Name": "Blackburn SLF",
+                "City": "Newton",
+                "County": "Catawba",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0904",
+                "Current_Year_Emission_Reductions_Avoided": "0.008"
+            },
+            {
+                "Landfill_Name": "Blackburn SLF",
+                "City": "Newton",
+                "County": "Catawba",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0452",
+                "Current_Year_Emission_Reductions_Avoided": "0.004"
+            },
+            {
+                "Landfill_Name": "Blackburn SLF",
+                "City": "Newton",
+                "County": "Catawba",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Buncombe County New Landfill",
+                "City": "Alexander",
+                "County": "Buncombe",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0633",
+                "Current_Year_Emission_Reductions_Avoided": "0.0056"
+            },
+            {
+                "Landfill_Name": "Buncombe County Old Landfill",
+                "City": "Woodfin",
+                "County": "Buncombe",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0445",
+                "Current_Year_Emission_Reductions_Avoided": "0.0039"
+            },
+            {
+                "Landfill_Name": "Charlotte Motor Speedway Landfill V",
+                "City": "Concord",
+                "County": "Cabarrus",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.1807",
+                "Current_Year_Emission_Reductions_Avoided": "0.0159"
+            },
+            {
+                "Landfill_Name": "Charlotte Motor Speedway Landfill V",
+                "City": "Concord",
+                "County": "Cabarrus",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.3388",
+                "Current_Year_Emission_Reductions_Avoided": "0.0299"
+            },
+            {
+                "Landfill_Name": "City of Durham SLF",
+                "City": "Durham",
+                "County": "Durham",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0904",
+                "Current_Year_Emission_Reductions_Avoided": "0.008"
+            },
+            {
+                "Landfill_Name": "City of Greensboro White Street Landfill",
+                "City": "Greensboro",
+                "County": "Guilford",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0849",
+                "Current_Year_Emission_Reductions_Avoided": "0.0084"
+            },
+            {
+                "Landfill_Name": "Columbus County, ARS",
+                "City": "Whiteville",
+                "County": "Columbus",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0026",
+                "Current_Year_Emission_Reductions_Avoided": "0.0003"
+            },
+            {
+                "Landfill_Name": "Columbus County, ARS",
+                "City": "Whiteville",
+                "County": "Columbus",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0095",
+                "Current_Year_Emission_Reductions_Avoided": "0.0008"
+            },
+            {
+                "Landfill_Name": "Cumberland County Ann Street Landfill",
+                "City": "Fayetteville",
+                "County": "Cumberland",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0875",
+                "Current_Year_Emission_Reductions_Avoided": "0.0086"
+            },
+            {
+                "Landfill_Name": "Davidson County LF",
+                "City": "Thomasville",
+                "County": "Davidson",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0723",
+                "Current_Year_Emission_Reductions_Avoided": "0.0064"
+            },
+            {
+                "Landfill_Name": "Edgecombe County LF",
+                "City": "Tarboro",
+                "County": "Edgecombe",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0334",
+                "Current_Year_Emission_Reductions_Avoided": "0.0029"
+            },
+            {
+                "Landfill_Name": "Gaston County LF",
+                "City": "Dallas",
+                "County": "Gaston",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.1265",
+                "Current_Year_Emission_Reductions_Avoided": "0.0112"
+            },
+            {
+                "Landfill_Name": "Hanes Mill Road Landfill",
+                "City": "Winston-Salem",
+                "County": "Forsyth",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.1943",
+                "Current_Year_Emission_Reductions_Avoided": "0.0171"
+            },
+            {
+                "Landfill_Name": "Haywood County LF",
+                "City": "Haywood",
+                "County": "Haywood",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0034",
+                "Current_Year_Emission_Reductions_Avoided": "0.0003"
+            },
+            {
+                "Landfill_Name": "Iredell County LF",
+                "City": "Statesville",
+                "County": "Iredell",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.1446",
+                "Current_Year_Emission_Reductions_Avoided": "0.0128"
+            },
+            {
+                "Landfill_Name": "Jackson County Landfill",
+                "City": "Dillsboro",
+                "County": "Jackson",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.005",
+                "Current_Year_Emission_Reductions_Avoided": "0.0005"
+            },
+            {
+                "Landfill_Name": "Johnston County MSW LF",
+                "City": "Smithfield",
+                "County": "Johnston",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0723",
+                "Current_Year_Emission_Reductions_Avoided": "0.0064"
+            },
+            {
+                "Landfill_Name": "North Wake County Landfill",
+                "City": "Raleigh",
+                "County": "Wake",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.1926",
+                "Current_Year_Emission_Reductions_Avoided": "0.019"
+            },
+            {
+                "Landfill_Name": "Onslow County LF",
+                "City": "Jacksonville",
+                "County": "Onslow",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0882",
+                "Current_Year_Emission_Reductions_Avoided": "0.0078"
+            },
+            {
+                "Landfill_Name": "Onslow County LF #2",
+                "City": "Jacksonville",
+                "County": "Onslow",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0882",
+                "Current_Year_Emission_Reductions_Avoided": "0.0078"
+            },
+            {
+                "Landfill_Name": "Orange County Regional Landfill",
+                "City": "Chapel Hill",
+                "County": "Orange",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0478",
+                "Current_Year_Emission_Reductions_Avoided": "0.0042"
+            },
+            {
+                "Landfill_Name": "Piedmont SLF",
+                "City": "Kernersville",
+                "County": "Forsyth",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.1084",
+                "Current_Year_Emission_Reductions_Avoided": "0.0096"
+            },
+            {
+                "Landfill_Name": "Pitt County LF",
+                "City": "Greenville",
+                "County": "Pitt",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0315",
+                "Current_Year_Emission_Reductions_Avoided": "0.0031"
+            },
+            {
+                "Landfill_Name": "Robeson County LF",
+                "City": "St. Pauls",
+                "County": "Robeson",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0479",
+                "Current_Year_Emission_Reductions_Avoided": "0.0042"
+            },
+            {
+                "Landfill_Name": "Sampson County LF",
+                "City": "Roseboro",
+                "County": "Sampson",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.063",
+                "Current_Year_Emission_Reductions_Avoided": "0.0062"
+            },
+            {
+                "Landfill_Name": "Sampson County LF #2",
+                "City": "Roseboro",
+                "County": "Sampson",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.2892",
+                "Current_Year_Emission_Reductions_Avoided": "0.0255"
+            },
+            {
+                "Landfill_Name": "Sampson County LF #2",
+                "City": "Roseboro",
+                "County": "Sampson",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0723",
+                "Current_Year_Emission_Reductions_Avoided": "0.0064"
+            },
+            {
+                "Landfill_Name": "Sampson County LF #2",
+                "City": "Roseboro",
+                "County": "Sampson",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0723",
+                "Current_Year_Emission_Reductions_Avoided": "0.0064"
+            },
+            {
+                "Landfill_Name": "South Wake LF (New)",
+                "City": "Apex",
+                "County": "Wake",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.1446",
+                "Current_Year_Emission_Reductions_Avoided": "0.0128"
+            },
+            {
+                "Landfill_Name": "Surry County LF 2",
+                "City": "Elkin",
+                "County": "Surry",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0723",
+                "Current_Year_Emission_Reductions_Avoided": "0.0064"
+            },
+            {
+                "Landfill_Name": "Tuscarora Long-Term Regional Landfill",
+                "City": "New Bern",
+                "County": "Craven",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.1053",
+                "Current_Year_Emission_Reductions_Avoided": "0.0093"
+            },
+            {
+                "Landfill_Name": "Uwharrie Environmental Regional LF",
+                "City": "Mount Gilead",
+                "County": "Montgomery",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.4337",
+                "Current_Year_Emission_Reductions_Avoided": "0.0383"
+            },
+            {
+                "Landfill_Name": "Watauga County Landfill",
+                "City": "Boone",
+                "County": "Watauga",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0084",
+                "Current_Year_Emission_Reductions_Avoided": "0.0007"
+            },
+            {
+                "Landfill_Name": "Wayne County LF",
+                "City": "Dudley",
+                "County": "Wayne",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0904",
+                "Current_Year_Emission_Reductions_Avoided": "0.008"
+            },
+            {
+                "Landfill_Name": "Wilder's Grove Landfill",
+                "City": "Raleigh",
+                "County": "Wake",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.07",
+                "Current_Year_Emission_Reductions_Avoided": "0.0069"
+            },
+            {
+                "Landfill_Name": "Wilder's Grove Landfill",
+                "City": "Raleigh",
+                "County": "Wake",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.07",
+                "Current_Year_Emission_Reductions_Avoided": "0.0069"
+            },
+            {
+                "Landfill_Name": "Wilkes County LF 1",
+                "City": "Wilkesboro",
+                "County": "Wilkes",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0032",
+                "Current_Year_Emission_Reductions_Avoided": "0.0003"
+            },
+            {
+                "Landfill_Name": "Yancey/Mitchell County LF",
+                "City": "Burnsville",
+                "County": "Yancey",
+                "Current_Project_Status": "Operational",
+                "Current_Year_Emission_Reductions_Direct": "0.0047",
+                "Current_Year_Emission_Reductions_Avoided": "0.0005"
+            },
+            {
+                "Landfill_Name": "Alexander County Landfill",
+                "City": "Taylorsville",
+                "County": "Alexander",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Anderson Creek LF Harnett County",
+                "City": "Anderson Creek",
+                "County": "Harnett",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Anson County LF",
+                "City": "Lilesville",
+                "County": "Anson",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Bertie County LF",
+                "City": "",
+                "County": "Bertie",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Caswell County LF",
+                "City": "Yanceyville",
+                "County": "Caswell",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Clay County LF",
+                "City": "",
+                "County": "Clay",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Currituck County LF",
+                "City": "",
+                "County": "Currituck",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Dan Johnson LF",
+                "City": "Ronda",
+                "County": "Wilkes",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Hoke County LF",
+                "City": "Raeford",
+                "County": "Hoke",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Madison County LF 1",
+                "City": "Marshall",
+                "County": "Madison",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Pamlico County LF",
+                "City": "Bayboro",
+                "County": "Pamlico",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Pasquotank County LF",
+                "City": "Elizabeth City",
+                "County": "Pasquotank",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Pender County LF",
+                "City": "Burgaw",
+                "County": "Pender",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Perquimans Chowan Gates Regional LF",
+                "City": "Belvidere",
+                "County": "Perquimans",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Swain County LF",
+                "City": "Bryson City",
+                "County": "Swain",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Warren County LF",
+                "City": "Warrenton",
+                "County": "Warren",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Western Carolina University",
+                "City": "Cullowhee",
+                "County": "Jackson",
+                "Current_Project_Status": "Other",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Gaston County LF",
+                "City": "Dallas",
+                "County": "Gaston",
+                "Current_Project_Status": "Planned",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Robeson County LF",
+                "City": "St. Pauls",
+                "County": "Robeson",
+                "Current_Project_Status": "Planned",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Alleghany County LF",
+                "City": "Sparta",
+                "County": "Alleghany",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Ashe County Landfill",
+                "City": "Crumpler",
+                "County": "Ashe",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Beaufort County LF",
+                "City": "",
+                "County": "Beaufort",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Bladen County LF",
+                "City": "Elizabethtown",
+                "County": "Bladen",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Brunswick County LF",
+                "City": "Bolivia",
+                "County": "Brunswick",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Caldwell County Mt. Herman Landfill",
+                "City": "Hudson",
+                "County": "Caldwell",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Camp Lejeune MSW Landfill",
+                "City": "Jacksonville",
+                "County": "Onslow",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Canton LF-Haywood County",
+                "City": "Canton",
+                "County": "Haywood",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Carteret County LF",
+                "City": "Beaufort",
+                "County": "Carteret",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Chatham County LF",
+                "City": "Pittsboro",
+                "County": "Chatham",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Cherokee County Landfill",
+                "City": "Marble",
+                "County": "Cherokee",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Cherokee County Subtitle D MSW Facility",
+                "City": "Marble",
+                "County": "Cherokee",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Cliffside South Rutherford County LF",
+                "City": "Forest City",
+                "County": "Rutherford",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Craven County LF",
+                "City": "New Bern",
+                "County": "Craven",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Davie County LF",
+                "City": "Mocksville",
+                "County": "Davie",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Duplin County LF",
+                "City": "Kenansville",
+                "County": "Duplin",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "East Lake LF-Dare County",
+                "City": "East Lake",
+                "County": "Dare",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Feltonsville Sanitary Landfill",
+                "City": "Apex",
+                "County": "Wake",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Franklin County LF",
+                "City": "Franklinton",
+                "County": "Franklin",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Graham County LF",
+                "City": "Robbinsville",
+                "County": "Graham",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Granville County LF 1",
+                "City": "Oxford",
+                "County": "Granville",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Greene County Landfill",
+                "City": "Walstonburg",
+                "County": "Greene",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Harnett County LF",
+                "City": "Dunn",
+                "County": "Harnett",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Haywood County White Oak LF",
+                "City": "Waynesville",
+                "County": "Haywood",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Hertford County LF",
+                "City": "Winton",
+                "County": "Hertford",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "JMN Landfill",
+                "City": "Grover",
+                "County": "Cleveland",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Jones County LF",
+                "City": "Trenton",
+                "County": "Jones",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Lee County LF",
+                "City": "Sanford",
+                "County": "Lee",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Lincoln County Landfill",
+                "City": "Crouse",
+                "County": "Lincoln",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Macon County LF",
+                "City": "Franklin",
+                "County": "Macon",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Madison County LF 2",
+                "City": "Marshall",
+                "County": "Madison",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "McDowell County LF",
+                "City": "Marion",
+                "County": "McDowell",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Mecklenburg County LF",
+                "City": "Charlotte",
+                "County": "Mecklenburg",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Moore County LF",
+                "City": "Aberdeen",
+                "County": "Moore",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Nash County LF",
+                "City": "Nashville",
+                "County": "Nash",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Newton LF",
+                "City": "Newton",
+                "County": "Catawba",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "North Wake County Landfill",
+                "City": "Raleigh",
+                "County": "Wake",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Northampton County LF",
+                "City": "Jackson",
+                "County": "Northampton",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Polk County LF",
+                "City": "Mill Spring",
+                "County": "Polk",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Randolph County SWF",
+                "City": "Randleman",
+                "County": "Randolph",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Richmond County LF",
+                "City": "Rockingham",
+                "County": "Richmond",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Riverdale Landfill",
+                "City": "Jamestown",
+                "County": "Guilford",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Roxboro LF-Person County",
+                "City": "",
+                "County": "Person",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Rutherford County LF",
+                "City": "Rutherfordton",
+                "County": "Rutherford",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Scotland County LF",
+                "City": "Maxton",
+                "County": "Scotland",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Sorrells SLF",
+                "City": "",
+                "County": "Wake",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Stokes County LF",
+                "City": "Germanton",
+                "County": "Stokes",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Surry County LF 1",
+                "City": "Mt. Airy",
+                "County": "Surry",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Surry County LF 3",
+                "City": "Mt. Airy",
+                "County": "Surry",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Swepsonville LF",
+                "City": "Graham",
+                "County": "Alamance",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Thomasville LF-Davidson County",
+                "City": "Thomasville",
+                "County": "Davidson",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Transylvania County SLF",
+                "City": "Brevard",
+                "County": "Transylvania",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Union County LF",
+                "City": "Wingate",
+                "County": "Union",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "US Army Fort Bragg",
+                "City": "Fort Bragg",
+                "County": "Cumberland",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "US Marine Corps Camp Lejeune",
+                "City": "Jacksonville",
+                "County": "Onslow",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Vance County LF",
+                "City": "Henderson",
+                "County": "Vance",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Wilkes County LF 2",
+                "City": "Roaring River",
+                "County": "Wilkes",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "York Road Landfill",
+                "City": "Charlotte",
+                "County": "Mecklenburg",
+                "Current_Project_Status": "Potential",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Avery County LF",
+                "City": "Spruce Pine",
+                "County": "Avery",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Buncombe County Old Landfill",
+                "City": "Woodfin",
+                "County": "Buncombe",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Buncombe County Old Landfill",
+                "City": "Woodfin",
+                "County": "Buncombe",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Buncombe County Old Landfill",
+                "City": "Woodfin",
+                "County": "Buncombe",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Buncombe County Old Landfill",
+                "City": "Woodfin",
+                "County": "Buncombe",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "City of Greensboro White Street Landfill",
+                "City": "Greensboro",
+                "County": "Guilford",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Henderson County LF",
+                "City": "Hendersonville",
+                "County": "Henderson",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Henderson County LF",
+                "City": "Hendersonville",
+                "County": "Henderson",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Jackson County Landfill",
+                "City": "Dillsboro",
+                "County": "Jackson",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Newton LF",
+                "City": "Newton",
+                "County": "Catawba",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "North Wake County Landfill",
+                "City": "Raleigh",
+                "County": "Wake",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Pitt County LF",
+                "City": "Greenville",
+                "County": "Pitt",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            },
+            {
+                "Landfill_Name": "Rowland Landfill, Inc.",
+                "City": "Raleigh",
+                "County": "Wake",
+                "Current_Project_Status": "Shutdown",
+                "Current_Year_Emission_Reductions_Direct": "0",
+                "Current_Year_Emission_Reductions_Avoided": "0"
+            }
+        ]
+    
+}

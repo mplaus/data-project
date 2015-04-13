@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Data-Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta Content-Type: text/html; charset=utf-8>
+    <title>Page Title</title>
+        <!--Jquery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <!--HighCharts-->
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+        <!--Boostrop-->
+    <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!--DataTable-->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.6/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.js"></script>
+
+        <!--My stuff-->
+    <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+    <link rel= "stylesheet" href="mycss.css">
+    
+    
+    <script>
+        
+        
+        
+        var ROW = [];
+        var names = [];
+        var reductions = [];
+        var reductions2 = [];
+        var projectStatus = [];
+         console.log("doc is starting");
+    $(document).ready(function()   {
+        
+	 
+        $.ajax({
+		type: "GET",
+		url: "data/landfillData.xml",
+		dataType: "xml",
+		success: parseXML
+		});
+           
+           
+	    function parseXML(xml) {
+                    console.log("parseXMl started");
+                
+
+        $(xml).find('ROW').each(function(){
+            //console.log("once for every person");
+            var $ROW = $(this); 
+            reductions.push(parseFloat($ROW.find('Current_Year_Emission_Reductions_Direct').text()));
+            reductions2.push(parseFloat($ROW.find('Current_Year_Emission_Reductions_Avoided').text()));
+            names.push(($ROW.find('Landfill_Name').text()));
+            projectStatus.push($ROW.find('Current_Project_Status').text());
+            
+	    // console.log(reductions);
+	    
+	    
+	    
+        });
+        //console.log(names);
+        //console.log(reductions);
+        console.log(projectStatus);
+        
+	buildChart();
+        buildChart2();
+        buildTable();
+    }
+      
+	
+    function buildChart(){
+	//var chart1 = new Highcharts.Chart({
+        $('#bar-chart').highcharts({
+        chart: {
+            renderTo: 'chart',
+            type: 'column'
+        },
+        title: {
+            text: 'Emissions Reductions From Operational Projects'
+        },
+        xAxis: {
+            categories: [names[15], names[16], names[17], names[18], names[19], names[20], names[21], names[22], names[23], names[24], names[25], names[26], names[27], names[28], names[29], names[30], names[31], names[32], names[33], names[34], names[35], names[36], names[37], names[38], names[39], names[40], names[41], names[42], names[43], names[44], names[45], names[46], names[47], names[48], names[49], names[50], names[51], names[52], names[53], names[54]]
+        },
+        yAxis: {
+            title: {
+                text: 'Emissions Reductions (MMTCO2e/yr)'
+            }
+        },
+        series: [{
+            name: 'Direct Emission Reductions',
+            data: [reductions[15], reductions[16], reductions[17], reductions[18], reductions[19], reductions[20], reductions[21], reductions[22], reductions[23], reductions[24], reductions[25], reductions[26], reductions[27], reductions[28], reductions[29], reductions[30], reductions[31], reductions[32], reductions[33], reductions[34], reductions[35], reductions[36], reductions[37], reductions[38], reductions[39], reductions[40], reductions[41], reductions[42], reductions[43], reductions[44], reductions[45], reductions[46], reductions[47], reductions[48], reductions[49], reductions[50], reductions[51], reductions[52], reductions[53], reductions[54]]
+        },
+         {
+            name: 'Avoided Emissions',
+            data: [reductions2[15], reductions2[16], reductions2[17], reductions2[18], reductions2[19], reductions2[20], reductions2[21], reductions2[22], reductions2[23], reductions2[24], reductions2[25], reductions2[26], reductions2[27], reductions2[28], reductions2[29], reductions2[30], reductions2[31], reductions2[32], reductions2[33], reductions2[34], reductions2[35], reductions2[36], reductions2[37], reductions2[38], reductions2[39], reductions2[40], reductions2[41], reductions2[42], reductions2[43], reductions2[44], reductions2[45], reductions2[46], reductions2[47], reductions2[48], reductions2[49], reductions2[50], reductions2[51], reductions2[52], reductions2[53], reductions2[54]]
+        }]
+    });
+	
+    };
+    
+    function buildChart2(){
+	//var chart1 = new Highcharts.Chart({
+        $('#pie-chart').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false
+            },
+            title: {
+                text: 'Status of North Carolina Landfill Projects'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true   
+                    },
+                    showInLegend: true
+                }
+            },
+            series: [{
+                type: 'pie',
+                name: 'Percent operational',
+                data: [
+                    ['Shutdown',   13],
+                    ['Potential',   58],
+                    ['Planned',     2],
+                    ['Other',    17],
+                    ['Operational',     41],
+                    ['Construction',   2],
+                    ['Candidate',   12]
+                ]
+            }]
+        });
+    };
+    
+
+    
+    function buildTable(){
+    
+    
+        $('#table_id').DataTable({
+            
+	    "ajax": {
+    "url": "data/landfillData.json",
+  },
+	    
+            
+        })
+        
+    }
+});
+        
+
+    /*Data Structure
+    $(document).ready(function(){
+    loadXML();
+    })
+    
+    function loadXML(){
+    
+	parseXml();
+    }
+    
+    function parseXML(){
+	
+	buildHTML();
+	buildCharts();
+	buildTable;
+	
+    }
+    
+    function buildHTML(){
+    
+    }
+    
+    function buildCharts(){
+    
+    }
+    
+    function buildTable(){
+    
+    }*/
+    
+    
+    
+  
+</script>
+    
+    
+</head>
+
+<body>
+
+<div class="row">
+    <div class="hidden-xs hidden-sm col-md-12" id="top-bar">
+        <div class="col-md-5">
+            <div class="col-md-3">
+                <a href="#">Subscribe</a>
+            </div>
+            <div class="col-md-5">
+                <a href="#">Customer Service</a>
+            </div>
+            <div class="col-md-4">
+                <a href="#">Zone Rewards</a>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+            <div class="col-md-3">
+                <a href="#">Classifieds</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">Jobs</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">Cars</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">Homes</a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">Apartments</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12" id="title-bar">
+        <div class="row">
+            <div class="hidden-xs col-md-3"></div>
+            <div class="col-xs-2 hidden-md">
+                <span class="glyphicon glyphicon-th-list"></span>
+            </div>
+            <div class="hidden-xs col-md-6">The News<span style="color: #FF2219;">&</span>Observer</div>
+            <div class="col-xs-8 hidden-sm hidden-md small-title">The News<span style="color: #FF2219;">&</span>Observer</div>
+            <div class="hidden-xs col-md-3"></div>
+            <div class="col-xs-2 hidden-md">
+                <span class="glyphicon glyphicon-search"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="hidden-xs hidden-sm col-md-12" id="my-nav-bar">
+        <div class="row">
+        <div class="col-md-11">
+            <div class="col-md-1">
+                <a href="#">Home</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">News</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Sports</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Business</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Politics</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Living</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Opinion</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Community</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Obituaries</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Deals</a>
+            </div>
+            <div class="col-md-1">
+                <a href="#">Classifieds</a>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-1">
+            <span class="glyphicon glyphicon-search"></span>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-md-6 text-title">
+        <h1>Landfill Gas Reclamation a Success in North Carolina</h1>
+    </div>
+    </div>
+    <div class="row text-body">
+        <div class="col-xs-12 col-md-6">
+        <p>Raleigh -- North Carolina is teaming up with the EPA's Landfill Methane Outreach Program (LMOP) to diminish methane and carbon dioxide emissions from landfills.</p>
+        <p>The equivalent of almost 600 million tons of carbon dioxide was released  (MMCO2e) released in the form of methane gas in the United States in 2012. </p>
+        <p>Landfills account for 18% of methane released into the atmosphere. Methane is generated in landfills as waste decomposes.</p>
+        <p>Landfill Reclamation Projects collect Landfill gas (LFG), which is high in methane, trapped in the landfills and sell it for industrial purposes. </p>
+	<p>North Carolina has shown it is committed to reducing the amount of methane released from landfills every year. The state has 34 active landfill reclamation projects in conjunction with LMOP. Only two other states have more active projects.</p>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+        <div id="bar-chart"></div>
+    </div>
+    </div>
+    <div class="row text-body">
+        <div class="col-xs-12 col-md-6 text-body">
+        <p>North Carolina has 125 unique landfills. Each has been categorized by its eligibility for a reclamation project. Almost 50% of North Carolina's landfills have been categorized a potential or candidate sites for a new project, so the state has even more ability to grow its reclamation program.</p>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+        <div id="pie-chart"></div>
+    </div>
+    </div>
+    <div class="row text-body">
+        <div class="col-xs-12 col-md-6">
+        <p>You can see below the location for every currently approved reclamation project.</p>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+        <iframe src="https://www.google.com/maps/d/embed?mid=zpoQ4RfN5Dmo.kzWfss2MEry4" id="map-style"></iframe>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6 table-style">
+        <table id="table_id" class="display">
+            <thead>
+            <tr>
+                <th>Landfill_Name</th>
+                <th>City</th>
+                <th>County</th>
+                <th>Current_Project_Status</th>
+                <th>Current_Year_Emission_Reductions_Direct</th>
+                <th>Current_Year_Emission_Reductions_Avoided</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1 Data 1</td>
+                    <td>Row 1 Data 2</td>
+                    <td>Row 1 Data 3</td>
+                    <td>Row 1 Data 4</td>
+                    <td>Row 1 Data 5</td>
+                    <td>Row 1 Data 6</td>
+                </tr>
+                <tr>
+                    <td>Row 1 Data 1</td>
+                    <td>Row 1 Data 2</td>
+                    <td>Row 1 Data 3</td>
+                    <td>Row 1 Data 4</td>
+                    <td>Row 1 Data 5</td>
+                    <td>Row 1 Data 6</td>
+                </tr>
+                <tr>
+                    <td>Row 1 Data 1</td>
+                    <td>Row 1 Data 2</td>
+                    <td>Row 1 Data 3</td>
+                    <td>Row 1 Data 4</td>
+                    <td>Row 1 Data 5</td>
+                    <td>Row 1 Data 6</td>
+                </tr>
+                <tr>
+                    <td>Row 1 Data 1</td>
+                    <td>Row 1 Data 2</td>
+                    <td>Row 1 Data 3</td>
+                    <td>Row 1 Data 4</td>
+                    <td>Row 1 Data 5</td>
+                    <td>Row 1 Data 6</td>
+                </tr>
+                <tr>
+                    <td>Row 1 Data 1</td>
+                    <td>Row 1 Data 2</td>
+                    <td>Row 1 Data 3</td>
+                    <td>Row 1 Data 4</td>
+                    <td>Row 1 Data 5</td>
+                    <td>Row 1 Data 6</td>
+                </tr>
+                <tr>
+                    <td>Row 1 Data 1</td>
+                    <td>Row 1 Data 2</td>
+                    <td>Row 1 Data 3</td>
+                    <td>Row 1 Data 4</td>
+                    <td>Row 1 Data 5</td>
+                    <td>Row 1 Data 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+</div>
+    <div class="row bottom-row">
+        <div class="col-xs-1 col-md-1"></div>
+        <div class="col-xs-8 col-md-8 small-title">The News<span style="color: #FF2219;">&</span>Observer</div>
+        
+    </div>
+    <div class="row">
+        <div class="col-md-12 bottom-box">
+            <div class="container">
+            <div class="col-md-12 bottom-box-words">SUBSCRIPTIONS</div>
+            <div class="col-md-12 bottom-box-words">SITE INFORMATION</div>
+            <div class="col-md-12 bottom-box-words">SOCILA MOBILE & MORE</div>
+            <div class="col-md-12 bottom-box-words">ADVERTISING</div>
+            <div class="col-md-12 bottom-box-words">MORE</div>
+        </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
