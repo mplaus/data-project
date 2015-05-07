@@ -148,8 +148,23 @@
             
 	    "ajax": {
     "url": "data/landfillData.json",
+    ordering: true,
+	    searching: true,
+	    lengthChange: true,
+	    pagination: true,
+	    info: true,
+	    responsive: true,
   },
-	    
+  "columns": [
+    { "data": "Landfill_Name" },
+    { "data": "City" },
+    { "data": "County" },
+    { "data": "Current_Project_Status" },
+    { "data": "Current_Year_Emission_Reductions_Direct" },
+    { "data": "Current_Year_Emission_Reductions_Avoided" }
+    
+  ]
+  
             
         })
         
@@ -234,7 +249,7 @@
     <div class="col-md-12" id="title-bar">
         <div class="row">
             <div class="hidden-xs col-md-3"></div>
-            <div class="col-xs-2 hidden-md">
+            <div class="col-xs-2 hidden-md hidden-lg">
                 <span class="glyphicon glyphicon-th-list"></span>
             </div>
             <div class="hidden-xs col-md-6">The News<span style="color: #FF2219;">&</span>Observer</div>
@@ -336,12 +351,12 @@
         <table id="table_id" class="display">
             <thead>
             <tr>
-                <th>Landfill_Name</th>
+                <th>Name</th>
                 <th>City</th>
                 <th>County</th>
-                <th>Current_Project_Status</th>
-                <th>Current_Year_Emission_Reductions_Direct</th>
-                <th>Current_Year_Emission_Reductions_Avoided</th>
+                <th>Status</th>
+                <th>Direct Emission Reductions</th>
+                <th>Avoided Emissions</th>
             </tr>
             </thead>
             <tbody>
